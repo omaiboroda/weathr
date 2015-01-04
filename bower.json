@@ -1,0 +1,16 @@
+{
+  "name": "weathr",
+  "version": "0.0.0",
+  "homepage": "https://github.com/omaiboroda/weathr",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "BigVideo.js": "*"
+  }
+}

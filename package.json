@@ -1,0 +1,39 @@
+{
+  "name": "weathr",
+  "version": "1.0.0",
+  "description": "What's the weathr?",
+  "main": "src/main.js",
+  "scripts": {
+    "devserver": "webpack-dev-server --debug --devtool source-map --content-base public --watch --progress --colors --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omaiboroda/weathr.git"
+  },
+  "author": "Oles Maiboroda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omaiboroda/weathr/issues"
+  },
+  "homepage": "https://github.com/omaiboroda/weathr",
+  "dependencies": {
+    "axios": "^0.4.2",
+    "fluxxor": "^1.5.1",
+    "jquery": "*",
+    "moment": "*",
+    "react": "*"
+  },
+  "devDependencies": {
+    "webpack": "*",
+    "webpack-dev-server": "*",
+    "jsx-loader": "*",
+    "less-loader": "*",
+    "style-loader": "*",
+    "react-hot-loader": "*",
+    "css-loader": "*",
+    "traceur-loader": "*",
+    "jshint-loader": "*",
+    "url-loader": "*"
+  }
+}

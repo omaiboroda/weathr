@@ -1,0 +1,33 @@
+{
+    "browser": true,
+    "node": true,
+    "jquery": true,
+
+    "bitwise": true,
+    "newcap": false,
+    "noempty": true,
+    "esnext": true,
+    "globalstrict": true,
+    "freeze": true,
+    "undef": true,
+    "unused": true,
+    "maxcomplexity": 25,
+    "latedef": false,
+    "smarttabs": false,
+    "trailing": false,
+    "laxbreak": true,
+    "expr": true,
+
+    "maxparams": 4,
+
+    "emitErrors": false,
+    "failOnHint": false,
+
+    "globals": {
+        "$traceurRuntime": true,
+        "$": true,
+        "Promise": true,
+        "Scroller": true,
+        "Swipe": true
+    }
+}
